@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hack Your Groceries: Storefront</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/styles.css" media="screen">
+<link rel="stylesheet" href="css/smashing.css" media="screen">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/template" id='template'>
+
+	<li class="product">
+		<div class="product-image">
+			<img class="product-img" src="" alt="" height="180px">
+		</div>
+		<div class="product-description productData" data-name="" data-price="" data-country="">
+			<h3 class="product-name"></h3>
+			<p class="product-price"></p>
+			<form class="add-to-cart" action="cart.html" method="post">
+				<div>
+					<label class="label" for="">Quantity</label>
+					<input type="text" name="" id="" class="qty" value="1" />
+				</div>
+				<p><input type="submit" value="Add to Cart" class="btn" /></p>
+			</form>
+		</div>
+	</li>
+  	
+</script>
+
+<script src="js/scripts.js"></script>
+<script src="js/jquery.shop.js"></script>
+
+</head>
+
+<body>
+
+<div id="site">
+	<header id="masthead">
+		<div id="store-front" class="well">
+		<h1 id="store-name">Hack Your Groceries</h1>
+      	<div id="searchArea">
+      	<span><input type="" name="" id="searchBar" placeholder="Please enter the search term here"></span><span><button id="searchButton">Search</button></span>
+      </div>
+      </div>
+	</header>
+	<div id="content">
+		<div>
+			<ul id="products">
+				
+			</ul>
+		</div>
+	</div>
+</div>
+
+<footer id="site-info">
+		Copyright © Hack Your Groceries
+	</footer>
+
+</body>
+</html>	
